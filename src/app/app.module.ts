@@ -4,11 +4,13 @@ import { HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
+import { MirxjsComponent } from './mirxjs/mirxjs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    MirxjsComponent
   ],
   imports: [
     BrowserModule,
